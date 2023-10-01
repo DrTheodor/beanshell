@@ -1029,7 +1029,7 @@ public class Interpreter
         try {
             return parser.Line();
         } catch (ParseException e) {
-            yield();
+            this.yield();
             if ( EOF )
                 return true;
             throw e;

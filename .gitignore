@@ -5,6 +5,9 @@
 .settings
 .project
 
+.idea
+*.out
+
 classes
 dist
 javadoc
